@@ -36,3 +36,10 @@ some other languages I'd have been able to do something like `.remove`. I'm also
 of pointless object - doubt this is very idiomatic (or at least I hope not).
 
 Part 2 - complete. Very minor variation on part 1 so quite quick.
+
+### Day 5
+
+Part 1 - complete. Found this a bit easier, probably cause it was quite similar to day 4.
+
+Part 2 - complete. Struggled more with this than I should have. Turns out I really don't understand
+diagonals. Probably should've written it down on a piece of paper, in retrospect.
