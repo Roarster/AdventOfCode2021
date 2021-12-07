@@ -43,3 +43,13 @@ Part 1 - complete. Found this a bit easier, probably cause it was quite similar 
 
 Part 2 - complete. Struggled more with this than I should have. Turns out I really don't understand
 diagonals. Probably should've written it down on a piece of paper, in retrospect.
+
+### Day 6
+
+Part 1 - complete. Quite easy, did it in what I thought was a nice object oriented style. Also wrote
+a test first for the sample data. First ever go test!
+
+Part 2 - complete. Turns out creating an object per fish didn't scale! Then tried to pre-calculate
+the total per starting age of fish and my computer could even do that. Switched it all around to
+calculate the number of fish per day and just shift values in arrays and it turns out it can pretty
+much be done instantly with zero memory. Still preferred the first approach...
