@@ -53,3 +53,10 @@ Part 2 - complete. Turns out creating an object per fish didn't scale! Then trie
 the total per starting age of fish and my computer could even do that. Switched it all around to
 calculate the number of fish per day and just shift values in arrays and it turns out it can pretty
 much be done instantly with zero memory. Still preferred the first approach...
+
+### Day 7
+
+Part 1 - complete. I feel there's probably a smarter solution than this but since this one is
+achievable in sensible time I've just gone for calculating the distances and adding them.
+
+Part 2 - complete. Fairly straightforward variation of first part.
