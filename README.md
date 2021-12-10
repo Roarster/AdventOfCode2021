@@ -60,3 +60,9 @@ Part 1 - complete. I feel there's probably a smarter solution than this but sinc
 achievable in sensible time I've just gone for calculating the distances and adding them.
 
 Part 2 - complete. Fairly straightforward variation of first part.
+
+### Day 8
+
+Part 1 - complete. This was very easy once I understood the question.
+
+Part 2 - incomplete. Done some work on this but haven't quite thought about the logic enough yet.
