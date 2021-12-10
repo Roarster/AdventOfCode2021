@@ -66,3 +66,7 @@ Part 2 - complete. Fairly straightforward variation of first part.
 Part 1 - complete. This was very easy once I understood the question.
 
 Part 2 - incomplete. Done some work on this but haven't quite thought about the logic enough yet.
+
+### Day 9
+
+Part 1 - complete. Pretty straightforward.
