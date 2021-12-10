@@ -74,3 +74,11 @@ Part 1 - complete. Pretty straightforward.
 Part 2 - complete. Had to think about this more and ended up writing recursive code for the first
 time in a long time. In retrospect this could be more efficient if I'd just started from the low
 points rather than testing everything.
+
+### Day 10
+
+Part 1 - complete. Quite enjoyable because it was obvious what to do and didn't feel like you needed
+to know some sort of trick like the previous few days.
+
+Part 2 - complete. Reasonably straightforward variation on part 1. Should probably tidy up the code
+but it's Friday night!
