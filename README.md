@@ -70,3 +70,7 @@ Part 2 - incomplete. Done some work on this but haven't quite thought about the 
 ### Day 9
 
 Part 1 - complete. Pretty straightforward.
+
+Part 2 - complete. Had to think about this more and ended up writing recursive code for the first
+time in a long time. In retrospect this could be more efficient if I'd just started from the low
+points rather than testing everything.

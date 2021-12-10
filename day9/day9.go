@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"sort"
 	"strconv"
 )
 
@@ -14,7 +15,9 @@ func main() {
 		log.Fatal(err)
 	}
 	defer file.Close()
-	fmt.Println("Part 1", part1(readInput(file)))
+	input := readInput(file)
+	fmt.Println("Part 1", part1(input))
+	fmt.Println("Part 2", part2(input))
 }
 
 func readInput(file *os.File) [][]int {
@@ -48,4 +51,39 @@ func part1(lines [][]int) int {
 		}
 	}
 	return count
+}
+
+func part2(lines [][]int) int {
+	totals := []int{}
+	for x, line := range lines {
+		for y, _ := range line {
+			total := traverse(lines, x, y)
+			if total > 0 {
+				totals = append(totals, total)
+			}
+		}
+	}
+	fmt.Println()
+	sort.Ints(totals)
+	return totals[len(totals)-1] * totals[len(totals)-2] * totals[len(totals)-3]
+}
+
+func traverse(lines [][]int, x int, y int) int {
+	if x >= len(lines) {
+		return 0
+	}
+	if y >= len(lines[0]) {
+		return 0
+	}
+	if x < 0 {
+		return 0
+	}
+	if y < 0 {
+		return 0
+	}
+	if lines[x][y] == 9 {
+		return 0
+	}
+	lines[x][y] = 9
+	return 1 + traverse(lines, x+1, y) + traverse(lines, x, y+1) + traverse(lines, x-1, y) + traverse(lines, x, y-1)
 }
